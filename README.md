@@ -33,7 +33,9 @@ This project allows users to add, edit, delete, search, filter, and save tasks u
 
 ## 📸 Preview
 
-(screenshot will be added soon)
+![Todo List Screenshot](assets/Screenshot.png)
+
+![Todo List Screenshot](assets/Screenshot2.png)
 
 ---
 
