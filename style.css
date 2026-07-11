@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f0f0f0;
     font-family: 'Times New Roman', Times, serif;
@@ -172,4 +176,97 @@ button:hover {
     background-color: #f44336;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/* Tablet */
+@media (max-width: 1200px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .taskName {
+        font-size: 35px;
+        width: 400px;
+    }
+
+    #taskListItem {
+        width: 80vw;
+    }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+
+    h1 {
+        font-size: 45px;
+    }
+
+
+    .container > div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    #addTaskInput {
+        width: 100%;
+        font-size: 18px;
+    }
+
+
+    #addTaskButton {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+    #searchTasks {
+        width: 100%;
+        font-size: 20px;
+    }
+
+
+    #filterbtns {
+        flex-direction: column;
+    }
+
+
+    #filterbtns button {
+        width: 100%;
+    }
+
+
+    #taskListItem {
+        flex-direction: row;
+         width: 80vw;
+        justify-content: space-between;
+    }
+
+
+    .taskName {
+        width: 60vw;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .editBtn,
+    .deleteBtn {
+        font-size: 15px;
+        text-align: center;
+        width: 20vw;
+        margin: 0px 5px;
+        padding: 5px 2px 5px 2px;
+    }
+
 }
